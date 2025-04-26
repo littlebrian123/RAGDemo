@@ -1,18 +1,24 @@
+# .github/workflows/deploy.yml
 name: Deploy Pages
 on:
   push:
-    branches: [ main ]      # Apps Script 會 push 到 main
-  workflow_dispatch:        # 手動重建 (可選)
+    branches: [ main ]
 
 permissions:
   contents: read
   pages: write
-  id-token: write           # 必要權限
+  id-token: write
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/upload-pages-artifact@v3   # 將整個 repo 打包
-      - uses: actions/deploy-pages@v4            # 發佈至 GitHub Pages
+
+      # 將目前目錄打包成 artifact
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'            # ★ 修正：改掉預設 _site/
+
+      - uses: actions/deploy-pages@v4
+        id: deploy
