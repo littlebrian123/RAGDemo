@@ -1,0 +1,18 @@
+name: Deploy Pages
+on:
+  push:
+    branches: [ main ]      # Apps Script 會 push 到 main
+  workflow_dispatch:        # 手動重建 (可選)
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write           # 必要權限
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/upload-pages-artifact@v3   # 將整個 repo 打包
+      - uses: actions/deploy-pages@v4            # 發佈至 GitHub Pages
