@@ -20,6 +20,9 @@
 - [圖像自動標註可行性評估$Stable Diffusion,Data Science$](https://docs.google.com/document/d/1WPbKHJ6EGDDRIuNUuESTvmsHaIUskaumclRo8jw3RM8/export?format=txt)
 - [Stable Diffusion 微調完整流程$Stable Diffusion,Data Science$](https://docs.google.com/document/d/1RXP4x07WGuNcjkj7fmAMlBOlcAyni2Hi1q3sj93YcOk/export?format=txt)
 
+## #MACOS
+- [macOS M2 kohya_ss 安裝指南$Stable Diffusion,MACOS$](https://docs.google.com/document/d/1cicTCi1Jor_EcsIZFYA3Bn3sVk5pgYUxGqRLp41krTg/export?format=txt)
+
 ## #NEXT-SAFE-ACTION
 - [Next-safe-action PayPal Integration Investigation $NextJs,Next-safe-action,Palpal$](https://docs.google.com/document/d/1gsgpjjED8Coi-djqAFjAOBE42jKcSId26mvydTZufCA/export?format=txt)
 
@@ -40,6 +43,7 @@
 - [Android Real-time Speaker Segmentation $Speaker identification,Android$](https://docs.google.com/document/d/1TMU5od-BoLf6uuJbAiGtiHmsk3gDgeqa0jEqSFlXtn0/export?format=txt)
 
 ## #STABLE DIFFUSION
+- [macOS M2 kohya_ss 安裝指南$Stable Diffusion,MACOS$](https://docs.google.com/document/d/1cicTCi1Jor_EcsIZFYA3Bn3sVk5pgYUxGqRLp41krTg/export?format=txt)
 - [Kohya_ss 細節深入研究$Stable Diffusion$](https://docs.google.com/document/d/1BUmAg0PHbELtd74QEpRV925DztiWLOoXaCIKNTnhzxo/export?format=txt)
 - [構建 Stable Diffusion 微調 MLOps Pipeline：含實現細節 $Data Science,Stable Diffusion$](https://docs.google.com/document/d/1fr1rycqaFrS72bi3ZcuG8EcY2L_E_L29RXp7gD__ncg/export?format=txt)
 - [構建 Stable Diffusion 微調 MLOps Pipeline$Data Science,Stable Diffusion$](https://docs.google.com/document/d/1v9EKDdsYGFNtOO9f70bFUbg6aHX72IQVu01lrxt1W54/export?format=txt)
